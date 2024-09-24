@@ -1,0 +1,193 @@
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .first_foo,
+    .contact_foo {
+        flex-direction: column;
+        gap: 34px;
+    }
+
+    .left_contact {
+        max-width: 100%;
+    }
+
+    .foo_navs ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .right_contact_bg {
+        padding: 20px 16px;
+    }
+
+    .footer_form button {
+        padding: 10px 16px;
+        border-radius: 14px;
+        font-size: 16px;
+    }
+
+    .right_ig_one {
+        width: 50%;
+    }
+
+    .left_ig_one {
+        display: none;
+    }
+
+    .left_banner_dls h6 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .left_banner_dls h2 {
+        font-size: 38px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .left_banner_dls h2>p {
+        text-align: center;
+    }
+
+    .left_banner_dls>p {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .left_banner_dls {
+        text-align: center;
+    }
+
+    .left_banner_dls h4 {
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+    .social_icons {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .banner_sec_wrap .row {
+        gap: 40px;
+    }
+
+    .orangr_band {
+        display: none;
+    }
+
+    .project_done {
+        bottom: 0;
+    }
+
+    .about_sec {
+        padding: 60px 0;
+    }
+
+    .about_wrap .row {
+        gap: 60px;
+    }
+
+    .left_about_sec {
+        padding: 20px 25px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left_about_sec_title {
+        width: 100%;
+    }
+
+    .left_about_sec_title h4 {
+        margin: auto;
+    }
+
+    .left_about_sec_btn a {
+        justify-content: center;
+    }
+
+    .right_about_dls_title h6 {
+        justify-content: center;
+        margin: 0 0 10px;
+    }
+
+    .right_about_dls_title h2 {
+        text-align: center;
+        font-size: 34px;
+        line-height: 100%;
+    }
+
+    .right_about_dls p {
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+    }
+
+    .right_about_dls {
+        gap: 40px;
+    }
+
+    .digit_dls h2 {
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .experience_wrap .row {
+        gap: 40px;
+    }
+
+    .experience_sec {
+        padding: 80px 0 0;
+    }
+
+    .design_tabs {
+        margin: 40px 0 0 0;
+    }
+
+    .design_tabs a {
+        visibility: visible;
+    }
+
+    .ranges_bars label {
+        font-size: 18px;
+    }
+
+    .main_logo a img {
+        width: 100%;
+        max-width: 170px;
+    }
+
+    .landing_page_wrap {
+        padding: 30px 0 0;
+    }
+
+    .btm_mail a {
+        font-size: 20px;
+    }
+
+    .projects_tabs .nav-tabs .nav-link {
+        font-size: 18px;
+    }
+
+    .projects_sec {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer_form {
+        flex-direction: column;
+    }
+
+    .footer_form input,
+    .footer_form button {
+        width: 100%;
+    }
+}
